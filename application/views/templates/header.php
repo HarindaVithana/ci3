@@ -5,6 +5,7 @@
         <title>CI3 Blog</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="stylesheet" href="/assets/css/style.css">
+        <script src="https://cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -18,6 +19,7 @@
                 <a class="nav-item nav-link active mr-auto" href="<?php echo base_url();?>">Home</a>
                 <a class="nav-item nav-link" href="<?php echo base_url();?>/about">About Us</a>
                 <a class="nav-item nav-link" href="<?php echo base_url();?>/posts">Blog</a>
+                <a class="nav-item nav-link" href="<?php echo base_url();?>/posts/create">Create Post</a>
                 <a class="float-md-right btn btn-outline-success" href="/users/register">Register</a>
             </div>
         </div>
